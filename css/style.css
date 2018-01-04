@@ -1,0 +1,221 @@
+*{
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.header-section{}
+.navbar-default .navbar-brand span{color: #fff;}
+body{    background: #fff;
+}
+.navbar-default .navbar-brand {
+    font-size: 24px;
+    color: #00BCD4;
+}
+.navbar-default {
+    background-color: transparent;}
+
+    .navbar-default {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffffd6;
+    background-color: transparent;
+}
+.carousel-inner > .item > img {
+        width: 100%;
+    height: 100%;
+    line-height: 1;
+}
+.carousel-caption {
+    bottom: auto !important;
+    top: 50%;
+    color: #fff;
+    transform: translateY(-50%) !important;
+}
+.carousel-caption h1{}
+.btn-custom{}
+.carousel-caption h1 {text-transform: uppercase;font-size: 30px;font-weight: 600;max-width: 500px;margin: 0 auto;line-height: 1.6;margin-bottom: 20px;}
+element.style {
+}
+.btn-custom {
+    text-shadow: none;
+    color: white;
+    text-transform: uppercase;
+    background: #39C9DA;
+    padding: 10px 30px;
+}
+.about-us-section{}
+.heading{
+    text-align:  center;
+        padding: 10px;
+}
+.heading h2{}
+.heading p{}
+.portfolio-img a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.portfolio-img {text-align: center;
+    position: relative;
+}
+.list-inline li strong{}
+.list-inline li span{    margin-left: 180px;}
+.services-section h2{
+        text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.services-section p{
+    text-align: center;
+}
+.service img{
+    margin: 0 auto;
+}
+.service h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.portfolio-section{background: #80808045;}
+.service span{background: #999;width:  100px;margin:  0 auto;height: 2px;display:  block;}
+.service p{
+    margin-top: 10px;
+
+}
+.service a {
+    text-shadow: none;
+    color: white;
+    text-transform: uppercase;
+    background: #2b2f2f;
+    padding: 10px 30px;
+}
+.service{padding: 25px;background: #fff;text-align: center;}
+.portfolio {
+    background: #fff;
+    padding: 10px;
+}
+.portfolio img{width: 100%;}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid white;
+    border-radius: 4px;
+        color: #fff;
+        transition: all 1s;
+}
+.portfolio-img:hover .btn-portfolio{opacity: 1;
+transform: translate(-50%,-50%) scale(1);}
+.portfolio .list-inline{
+    overflow: hidden;
+}
+.portfolio-img .btn-portfolio:hover{
+    color: #fff;
+}
+.service span:hover{}
+.services-section p {
+    margin: 10px 0px 23px;
+    text-align: center;
+}
+
+.contact-info span {
+    background: #2b2f2f;
+    width: 100px;
+    height: 3px;
+    display: block;
+}
+.contact-info {}
+.contact-info h2{}
+.contact-info p{margin-top: 10px;}
+
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.affix{
+        background: #25242785;
+}
+footer{text-align: center;
+    background: #39c9da;}
+    
+.services-section{background: #8080803b;
+    padding-bottom: 7pc;}
+    .service:hover{
+       background: #59dceb;
+
+
+    }
+
+.about-img{    padding: 30px;}
+
+.about-content{    padding: 8px;}
+
+.pageLoading({
+
+  // background color of the progress bar
+  barColor:'#79c4df',
+
+  // top position of the progress bar
+  barTop:'100px',
+
+  // top position of the percentage text
+  textTop:'200px', 
+
+  // background color of the loading overlay
+  backColor:'rgba(245, 245, 245, 0.90)',
+
+  // background color of the progress bar
+  backBarColor:'#dfe8ea', 
+
+  // text inside the progress bar
+  text:'Loading <b>{process} %</b>',
+
+  // show of hide the percentage text
+  textVisible:true, 
+
+  loadOut:true  
+  
+});
+
+.parallax {
+  z-index: 10;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.bgimg {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width:  100%;
+}
